@@ -156,6 +156,9 @@ namespace SiJemwan
 
                 if (double.TryParse(gaji, out double Gaji))
                 {
+                    if (Gaji <= 0) {
+                        continue;
+                    }
                     gaji_pokok = Gaji;
                     break;
                 }
