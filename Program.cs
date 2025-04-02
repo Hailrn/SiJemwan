@@ -156,7 +156,8 @@ namespace SiJemwan
 
                 if (double.TryParse(gaji, out double Gaji))
                 {
-                    if (Gaji <= 0) {
+                    if (Gaji < 200000) {
+                        Console.WriteLine("\n\nInput Gaji minimal 200000!");
                         continue;
                     }
                     gaji_pokok = Gaji;
