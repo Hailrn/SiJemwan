@@ -112,13 +112,6 @@ namespace SiJemwan
     {
         static void Main(string[] args)
         {
-            //Kontrak karyawan1 = new Kontrak("Budi", "K001", 3000000);
-            //Magang karyawan2 = new Magang("Andi", "M001", 2000000);
-            //Tetap karyawan3 = new Tetap("Caca", "T001", 4000000);
-            //karyawan3.setGajiPokok(5000000);
-            //karyawan1.info();
-            //karyawan2.info();
-            //karyawan3.info();
             string nama, id_pegawai;
             double gaji_pokok;
             while (true)
